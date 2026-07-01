@@ -213,7 +213,7 @@ nav.dark {
 .hero-photo {
   position: absolute; inset: 0;
   /* 推奨画像：QSラボ・医師講義・白衣の研究者（暗めの科学的な背景） */
-  background: url('https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1920&q=90') center 30%/cover no-repeat;
+  background: url('hero-colorado.jpg') center 30%/cover no-repeat;
 }
 .hero-photo::after {
   content: '';
@@ -848,7 +848,7 @@ nav.dark {
   object-fit: cover;
   display: block;
   /* Rocky Mountain aspen grove */
-  background: url('https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=900&q=85') center/cover;
+  background: url('colorado-mountains.jpg') center/cover;
 }
 .why-photo-inset {
   position: absolute;
@@ -997,7 +997,7 @@ nav.dark {
   width: 100%;
   aspect-ratio: 2/3;
   /* Lab / scientist imagery */
-  background: url('https://images.unsplash.com/photo-1559757175-5700dde675bc?w=700&q=85') center/cover;
+  background: url('laboratory.jpg') center/cover;
   position: relative;
 }
 .shade-photo-caption {
@@ -1594,7 +1594,7 @@ nav.dark {
   letter-spacing: 0.05em;
   background: white;
 }
-/* ナビゲーター（木村一相先生）プロフィール */
+/* ナビゲーター（木村先生）プロフィール */
 .navigator-card {
   background: white;
   box-shadow: 0 4px 40px rgba(0,0,0,0.08);
@@ -2207,7 +2207,7 @@ nav.dark {
 .cta-bg {
   position: absolute; inset: 0;
   /* Red Rocks Amphitheatre / Colorado landscape */
-  background: url('https://images.unsplash.com/photo-1605540436563-5bca919ae766?w=1800&q=85') center/cover;
+  background: url('colorado-mountains.jpg') center/cover;
 }
 .cta-bg::after {
   content: '';
@@ -2342,22 +2342,22 @@ nav.dark {
 
 /* ── FOOTER ── */
 footer {
-  background: var(--ink);
+  background: #9D9730;
   padding: 56px var(--gutter) 36px;
 }
 .footer-top {
   display: flex; justify-content: space-between; align-items: flex-start;
   gap: 48px; flex-wrap: wrap;
   padding-bottom: 40px;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
+  border-bottom: 1px solid rgba(0,0,0,0.12);
   margin-bottom: 32px;
 }
-.footer-logos { display: flex; flex-direction: column; gap: 20px; }
+.footer-logos { display: flex; flex-direction: column; gap: 20px; align-items: flex-start; }
 .footer-logos img { height: 48px; width: auto; }
 .footer-text {
   font-family: var(--ff-jp-s);
   font-size: 11px;
-  color: rgba(255,255,255,0.3);
+  color: rgba(0,0,0,0.55);
   letter-spacing: 0.06em;
   line-height: 1.8;
   max-width: 300px;
@@ -2367,16 +2367,16 @@ footer {
   font-size: 10px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.2);
+  color: rgba(0,0,0,0.4);
   line-height: 2;
 }
-.footer-geo strong { color: rgba(255,255,255,0.4); font-weight: 400; }
+.footer-geo strong { color: rgba(0,0,0,0.65); font-weight: 400; }
 .footer-bottom {
   display: flex; justify-content: space-between; align-items: center;
   flex-wrap: wrap; gap: 12px;
   font-family: var(--ff-ui);
   font-size: 10px;
-  color: rgba(255,255,255,0.2);
+  color: rgba(0,0,0,0.4);
   letter-spacing: 0.08em;
 }
 
@@ -2449,7 +2449,7 @@ footer {
     </div>
 
     <!-- メインヘッドライン：Transformationを売る -->
-    <span class="hero-title-en">For Medical Doctors Only — Colorado, USA</span>
+    <span class="hero-title-en">For Doctors Only — Colorado, USA</span>
     <h1 class="hero-title">
       参加した医師は、<br>
       帰国後に<br>
@@ -2458,7 +2458,7 @@ footer {
 
     <p class="hero-jp">
       世界最先端の機能性医療科学者 Dr. Christopher Shade から<br>
-      直接学ぶ、10年に1回の本社エグゼクティブドクター研修。
+      直接学ぶ、10年に1回の本社エグゼクティブ研修。
     </p>
 
     <!-- 参加後に得られる3つの変化（ヒーロー内で即座に伝える） -->
@@ -2512,7 +2512,7 @@ footer {
 <div id="scarcity-strip">
   <span class="scarcity-label">⚠ 特別告知</span>
   <span class="scarcity-sep">|</span>
-  <span class="scarcity-main">QS本社エグゼクティブドクター研修は<strong>「10年に1回」</strong>しか実施されない特別プログラムです</span>
+  <span class="scarcity-main">QS本社エグゼクティブドクター研修価格は<strong>「10年に1回」</strong>しか実施されない特別プログラムです</span>
   <span class="scarcity-sep">|</span>
   <span class="scarcity-label">2026年9月 — 残席僅少</span>
   <a href="#contact" class="scarcity-cta">席を確保する</a>
@@ -2538,14 +2538,13 @@ footer {
 
       <div class="tf-card">
         <div class="tf-num">01</div>
-        <!-- 推奨画像：顕微鏡・ラボ機器・科学分析 -->
         <div class="tf-title">臨床力の<br>飛躍的向上</div>
         <div class="tf-desc">Dr. Shadeの最新知見を直接吸収。リポソーマル技術・デトックス科学の根底にある理論を体得し、処方力が格段に深まる。</div>
       </div>
 
       <div class="tf-card featured">
         <div class="tf-num">02</div>
-        <!-- 推奨画像：医師の白衣・名刺・クリニック看板 -->
+        <!-- colorado-mountains.jpg -->
         <div class="tf-title">権威性・<br>差別化の獲得</div>
         <div class="tf-desc">「米国QS本社研修修了・QS認定エキスパート」の肩書きが、新規患者獲得・他院との差別化・メディア露出に機能する。</div>
       </div>
@@ -2634,14 +2633,14 @@ footer {
           <div class="qs-tl-line"><div class="qs-tl-dot"></div><div class="qs-tl-vert"></div></div>
           <div class="qs-tl-content">
             <div class="qs-tl-title">QSS JAPAN TEAM 発足・初回コロラド研修</div>
-            <div class="qs-tl-desc">日本の医師が初めてQS本社を訪問。木村一相先生のナビゲートのもと、日本向けプログラムが始動</div>
+            <div class="qs-tl-desc">日本の医師が初めてQS本社を訪問。木村先生のナビゲートのもと、日本向けプログラムが始動</div>
           </div>
         </div>
         <div class="qs-tl-item">
           <div class="qs-tl-year">2026</div>
           <div class="qs-tl-line"><div class="qs-tl-dot"></div></div>
           <div class="qs-tl-content">
-            <div class="qs-tl-title">10年に1回の本社エグゼクティブドクター研修</div>
+            <div class="qs-tl-title">10年に1回の本社エグゼクティブ研修</div>
             <div class="qs-tl-desc">2017年以来の特別プログラム。次世代の日本機能性医療リーダーを育成する2026年版が開幕</div>
           </div>
         </div>
@@ -2742,7 +2741,7 @@ footer {
       </div>
     </div>
     <!-- 推奨画像：QS製品ライン・サプリメント・ラボ機器（右下インセット） -->
-    <div class="why-photo-inset" style="background:url('https://images.unsplash.com/photo-1576671414121-aa2d60f2a7e7?w=600&q=85') center/cover;"></div>
+    <div class="why-photo-inset" style="background:url('Bottles.png') center/cover;"></div>
   </div>
 
   <div class="why-text-col">
@@ -2751,7 +2750,7 @@ footer {
     <h2 class="headline">日本と米国。<br>50年の差。</h2>
 
     <blockquote class="why-pull-quote">
-      「日本の医師がまだ知らないことを、<br>コロラドの医師は日常の臨床でやっている。」
+      「日本の医師がまだ知らないことを、<br>世界の医師は日常の臨床でやっている。」
     </blockquote>
 
     <p class="body-copy-jp">
@@ -2874,7 +2873,7 @@ footer {
     <!-- 右カラム：Dr. Shade 写真＋キャプション -->
     <div class="shade-photo-col">
       <!-- 推奨画像：Dr. Christopher Shade 公式プロフィール写真（QS社より入手） -->
-      <div class="shade-photo" style="background:url('photo-drshade.jpg') center top/cover;">
+      <div class="shade-photo" style="background:url('Chris Shade Profile Social.png') center top/cover;">
         <!-- 推奨画像：Dr. Shade がラボでビーカー操作・講演中の写真に差し替え -->
       </div>
       <div class="shade-photo-caption">
@@ -2884,8 +2883,7 @@ footer {
       </div>
 
       <!-- 推奨画像：Dr. Shade 講義風景・参加者との質疑応答 -->
-      <div style="margin-top:2px;width:100%;aspect-ratio:4/3;background:rgba(0,0,0,0.12);display:flex;align-items:center;justify-content:center;border:1px dashed rgba(255,255,255,0.08)">
-        <span style="font-family:var(--ff-ui);font-size:10px;color:rgba(255,255,255,0.2);letter-spacing:0.18em;text-transform:uppercase;text-align:center;padding:0 20px">'shade-podcast.png'</span>
+         <div class="shade-photo" style="background:url('drshade-lecture.png') center top/cover;">
       </div>
 
       <!-- 引用：Dr. Shade の言葉 -->
@@ -2922,7 +2920,7 @@ footer {
     <!-- カード1 -->
     <div class="facility-card">
       <!-- 推奨画像：GMP対応クリーンルーム・製造ライン -->
-      <div class="facility-img" style="background-image:url('Inside-Labo.jpg')">
+      <div class="facility-img" style="background-image:url('photo-drshade-action.jpg')">
         <div class="facility-img-overlay">
           <div class="facility-restricted">Restricted Zone</div>
           <div class="facility-name">GMP製造施設<br>クリーンルーム</div>
@@ -2936,7 +2934,7 @@ footer {
     <!-- カード2 -->
     <div class="facility-card">
       <!-- 推奨画像：研究開発ラボ・ビーカー・分析機器 -->
-      <div class="facility-img" style="background-image:url('https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&q=85')">
+      <div class="facility-img" style="background-image:url('laboratory.jpg')">
         <div class="facility-img-overlay">
           <div class="facility-restricted">R&amp;D Laboratory</div>
           <div class="facility-name">研究開発ラボ<br>非公開開発エリア</div>
@@ -3025,7 +3023,7 @@ footer {
     <div class="dv-card">
       <div class="dv-num">04</div>
       <div class="dv-title">ファクトリー価格での<br>製品調達権</div>
-      <div class="dv-desc">研修修了者には、<strong>QS製品をファクトリーアウトレット価格で継続調達できる特典</strong>が付与される。原価低減による自費診療収益の改善に直結する。</div>
+      <div class="dv-desc">研修修了者には、<strong>QS製品をファクトリー価格で継続調達できる特典</strong>が付与される。原価低減による自費診療収益の改善に直結する。</div>
     </div>
   </div>
 
@@ -3051,7 +3049,7 @@ footer {
     </div>
     <div class="colorado-copy-right">
       <p style="font-family:var(--ff-jp);font-size:clamp(14px,1.5vw,18px);font-weight:300;color:rgba(255,255,255,0.6);line-height:1.9;letter-spacing:0.07em">
-        これは旅行ではありません。QS本社という世界で唯一の機能性医療ラボに4日間没入し、開発者・研究者・同志医師たちと共に学ぶ、エグゼクティブドクター研修プログラムです。
+        これは旅行ではありません。QS本社という世界で唯一の機能性医療ラボに4日間没入し、開発者・研究者・同志医師たちと共に学ぶ、エグゼクティブ研修プログラムです。
       </p>
     </div>
   </div>
@@ -3060,7 +3058,7 @@ footer {
     <!-- Cell 1: 講義風景（縦長・左） -->
     <!-- 推奨画像：Dr. Shade 特別講義・医師が聴講している写真 -->
     <div class="cm-cell">
-      <div class="cm-bg" style="background-image:url('drshade-lecture.png')"></div>
+      <div class="cm-bg" style="background-image:url('shade-podcast.png')"></div>
       <div class="cm-overlay"></div>
       <div class="cm-label">
         <div class="cm-tag">LEARN · DAY 2–3</div>
@@ -3191,7 +3189,7 @@ footer {
             <div class="tl-line"><div class="tl-dot"></div><div class="tl-vert"></div></div>
             <div class="tl-content">
               <div class="tl-title">現地集合・ホテルチェックイン</div>
-              <div class="tl-desc">木村一相先生・専任スタッフが空港よりエスコート。専用バス（運転手付き）で全行程をサポート。英語不要、安心の完全日本語対応</div>
+              <div class="tl-desc">専任スタッフが空港よりエスコート。専用バス（運転手付き）で全行程をサポート。英語不要、安心の完全日本語対応</div>
               <div class="tl-navigator"><span class="tl-navigator-text">木村一相先生ナビゲート ｜ 日本語サポート完備</span></div>
             </div>
           </div>
@@ -3243,7 +3241,7 @@ footer {
             <div class="tl-content">
               <div class="tl-title">Quicksilver Scientific 本社到着・ウェルカムセッション</div>
               <div class="tl-desc">QSスタッフによる施設全体の説明。創業から現在までのヒストリーと開発哲学のブリーフィング</div>
-              <div class="tl-navigator"><span class="tl-navigator-text">木村一相先生通訳サポート ｜ 日本語マニュアル配布</span></div>
+              <div class="tl-navigator"><span class="tl-navigator-text">日本語通訳サポート ｜ 日本語マニュアル配布</span></div>
             </div>
           </div>
           <div class="tl-entry">
@@ -3291,7 +3289,7 @@ footer {
             <div class="tl-line"><div class="tl-dot"></div><div class="tl-vert"></div></div>
             <div class="tl-content">
               <div class="tl-title">QSオフィス見学・Dr. Shade・QSスタッフと記念撮影</div>
-              <div class="tl-desc">フリータイム。デンバーのオーガニックレストランで各自体験（木村一相先生おすすめ店リスト配布）</div>
+              <div class="tl-desc">フリータイム。デンバーのオーガニックレストランで各自体験</div>
             </div>
           </div>
         </div>
@@ -3327,7 +3325,7 @@ footer {
             <div class="tl-content">
               <div class="tl-title highlight">Dr. Shade 特別講義 Vol.2</div>
               <div class="tl-desc">テーマ：「ロンジェビティ・バイオロジカル医療・重金属デトックスの臨床応用——明日から実践できるプロトコル設計」<br>NAD+・ミトコンドリア医療・カスケードデトックスプロトコルの実装方法論</div>
-              <div class="tl-navigator"><span class="tl-navigator-text">木村一相先生通訳 ｜ 日本語レジュメ配布</span></div>
+              <div class="tl-navigator"><span class="tl-navigator-text">日本語通訳 ｜ 日本語レジュメ配布</span></div>
             </div>
           </div>
           <div class="tl-entry">
@@ -3426,7 +3424,7 @@ footer {
             <div class="tl-line"><div class="tl-dot"></div><div class="tl-vert"></div></div>
             <div class="tl-content">
               <div class="tl-title">チェックアウト・帰国</div>
-              <div class="tl-desc">木村一相先生・スタッフの見送りのもと、デンバー国際空港へ。帰国してからが本番です</div>
+              <div class="tl-desc">スタッフの見送りのもと、デンバー国際空港へ。帰国してからが本番です</div>
             </div>
           </div>
           <div class="tl-entry">
@@ -3524,25 +3522,25 @@ footer {
       </div>
     </div>
 
-    <!-- 右：木村一相先生プロフィール（ナビゲーター） -->
+    <!-- 右：木村先生プロフィール（ナビゲーター） -->
     <div>
-      <!-- 推奨画像：木村一相先生プロフィール写真（白衣・診察室または講演中） -->
+      <!-- 推奨画像：木村先生プロフィール写真（白衣・診察室または講演中） -->
       <div class="navigator-card">
         <div class="navigator-photo">
-          <!-- 推奨画像：木村一相先生の公式プロフィール写真に差し替え -->
+          <!-- 推奨画像：木村先生の公式プロフィール写真に差し替え -->
           <div class="navigator-photo-label">
             <div class="navigator-role">Program Navigator &amp; Lead Facilitator</div>
-            <div class="navigator-name">木村 先生</div>
+            <div class="navigator-name">木村 一相 先生</div>
           </div>
         </div>
         <div class="navigator-body">
           <p class="navigator-desc">
-            QSS JAPAN TEAMの中心人物として、2017年の初回コロラド研修から全プログラムのナビゲーターを務める。Dr. Christopher Shadeとの深い信頼関係のもと、QS社の科学的知見を日本の医師に届け続けてきた。臨床医として現役でありながら、機能性医療・デトックス医療の教育者・先駆者として活躍。英語が不得意でも心配不要——4日間を通じて、木村一相先生が通訳・解説・ファシリテートを担当する。
+            QSS JAPAN TEAMの創設者として、2017年の初回コロラド研修から全プログラム・セミナーのナビゲーターを務める。Dr. Christopher Shadeとの深い信頼関係のもと、QS社の科学的知見を日本の医師に届け続けてきた。バイオロジカルデンティストとして現役でありながら、機能性医療・デトックス医療の教育者・先駆者として活躍。木村先生が解説・ファシリテートを担当する。
           </p>
           <div class="navigator-creds">
             <div class="nav-cred">
               <span class="nav-cred-dot"></span>
-              <span class="nav-cred-text"><strong>2017年〜現在：</strong>QSS JAPAN TEAM 中心メンバー・プログラムナビゲーター</span>
+              <span class="nav-cred-text"><strong>2017年〜現在：</strong>QSS JAPAN TEAM 創設・ナビゲーター</span>
             </div>
             <div class="nav-cred">
               <span class="nav-cred-dot"></span>
@@ -3566,7 +3564,7 @@ footer {
       <!-- 2017年参加者からのコメント -->
       <div style="background:var(--sky);padding:24px 28px;margin-top:2px">
         <p style="font-family:var(--ff-jp);font-size:clamp(13px,1.3vw,16px);font-weight:300;color:rgba(255,255,255,0.85);line-height:1.8;letter-spacing:0.05em">
-          「木村一相先生がいてくれたから、4日間を完全に吸収できた。英語が全くわからなくても、Dr. Shadeの意図が100%伝わった。」
+          「木村先生がいてくれたから、4日間を完全に吸収できた。英語が全くわからなくても、Dr. Shadeの意図が100%伝わった。」
         </p>
         <p style="font-family:var(--ff-ui);font-size:9px;letter-spacing:0.2em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-top:10px">— 2017年参加者 · 歯科医師</p>
       </div>
@@ -3604,8 +3602,8 @@ footer {
       </div>
       <div class="al-card">
         <div class="al-icon">④</div>
-        <div class="al-title">木村一相先生による<br>日本語継続サポート</div>
-        <div class="al-desc">「Dr. Shadeに聞きたいことがある」——木村一相先生が橋渡し。臨床上の疑問・製品選択・プロトコル設計を日本語で継続フォローアップ</div>
+        <div class="al-title">木村先生による<br>日本語継続サポート</div>
+        <div class="al-desc">「Dr. Shadeに聞きたいことがある」——木村先生が橋渡し。臨床上の疑問・製品選択・プロトコル設計を日本語で継続フォローアップ</div>
       </div>
     </div>
 
@@ -3668,7 +3666,7 @@ footer {
           <div style="display:flex;gap:14px;margin-bottom:10px"><span style="font-family:var(--ff-ui);font-size:9px;letter-spacing:0.18em;color:rgba(255,255,255,0.3);min-width:28px;padding-top:2px;text-transform:uppercase">春</span><span>国内QSSセミナー（修了者優先参加・割引）</span></div>
           <div style="display:flex;gap:14px;margin-bottom:10px"><span style="font-family:var(--ff-ui);font-size:9px;letter-spacing:0.18em;color:rgba(255,255,255,0.3);min-width:28px;padding-top:2px;text-transform:uppercase">夏</span><span>オンライン事前学習プログラム（次期参加者向け）</span></div>
           <div style="display:flex;gap:14px;margin-bottom:10px"><span style="font-family:var(--ff-ui);font-size:9px;letter-spacing:0.18em;color:var(--terra-l);min-width:28px;padding-top:2px;text-transform:uppercase;font-weight:500">秋</span><span style="color:rgba(255,255,255,0.85)">★ コロラド現地研修（本プログラム）</span></div>
-          <div style="display:flex;gap:14px"><span style="font-family:var(--ff-ui);font-size:9px;letter-spacing:0.18em;color:rgba(255,255,255,0.3);min-width:28px;padding-top:2px;text-transform:uppercase">冬</span><span>帰国者振り返り検討会（木村一相先生ファシリテート）</span></div>
+          <div style="display:flex;gap:14px"><span style="font-family:var(--ff-ui);font-size:9px;letter-spacing:0.18em;color:rgba(255,255,255,0.3);min-width:28px;padding-top:2px;text-transform:uppercase">冬</span><span>帰国者振り返り検討会（木村先生ファシリテート）</span></div>
         </div>
       </div>
       <div class="support-item">
@@ -3704,7 +3702,7 @@ footer {
             <div style="display:flex;align-items:flex-start;gap:10px"><span style="color:var(--terra-l);margin-top:2px">▶</span><span>臨床プロトコル・症例の相互共有</span></div>
             <div style="display:flex;align-items:flex-start;gap:10px"><span style="color:var(--terra-l);margin-top:2px">▶</span><span>修了者間の相互紹介・専門家ネットワーク</span></div>
             <div style="display:flex;align-items:flex-start;gap:10px"><span style="color:var(--terra-l);margin-top:2px">▶</span><span>次回コロラド研修への最優先案内</span></div>
-            <div style="display:flex;align-items:flex-start;gap:10px"><span style="color:var(--terra-l);margin-top:2px">▶</span><span>木村一相先生への継続相談チャンネル</span></div>
+            <div style="display:flex;align-items:flex-start;gap:10px"><span style="color:var(--terra-l);margin-top:2px">▶</span><span>木村先生への継続相談チャンネル</span></div>
           </div>
         </div>
       </div>
@@ -3736,7 +3734,7 @@ footer {
     <div class="faq-list">
       <details class="faq-item">
         <summary><span>英語が苦手でも参加できますか？</span><div class="faq-icon">+</div></summary>
-        <div class="faq-a">日本語通訳・日本語マニュアルを完備しています。英語力は一切不要です。専任スタッフが現地で全日サポートするため、安心してプログラムに集中いただけます。</div>
+        <div class="faq-a">日本語通訳・解説サポートを行います。英語力は一切不要です。専任スタッフが現地で全日サポートするため、安心してプログラムに集中いただけます。</div>
       </details>
       <details class="faq-item">
         <summary><span>参加費60万円（税別）には何が含まれますか？</span><div class="faq-icon">+</div></summary>
@@ -3744,7 +3742,7 @@ footer {
       </details>
       <details class="faq-item">
         <summary><span>医師・歯科医師・獣医師以外でも参加できますか？</span><div class="faq-icon">+</div></summary>
-        <div class="faq-a">はい。薬剤師・管理栄養士・医療機関経営者・ウェルネス事業者の方もご参加いただけます。まずはお問い合わせください。</div>
+        <div class="faq-a">基本的には医師限定の研修ですが、ご希望の方はお問い合わせください。</div>
       </details>
       <details class="faq-item">
         <summary><span>シルバーウィークに合わせた日程ですか？</span><div class="faq-icon">+</div></summary>
@@ -3840,27 +3838,28 @@ footer {
       </div>
     </div>
 
-    <div class="form-stack">
+    <form id="contact-form" class="form-stack" onsubmit="submitContactForm(event)">
       <div class="fg-row">
-        <div class="fg"><label class="fl">お名前 *</label><input type="text" class="fi" placeholder="山田 太郎"></div>
+        <div class="fg"><label class="fl">お名前 *</label><input type="text" name="name" class="fi" placeholder="山田 太郎" required></div>
         <div class="fg">
           <label class="fl">職種 *</label>
-          <select class="fs">
+          <select name="role" class="fs" required>
             <option value="">選択してください</option>
             <option>医師</option><option>歯科医師</option><option>獣医師</option>
             <option>薬剤師</option><option>医療機関経営者</option><option>ウェルネス事業者</option><option>その他</option>
           </select>
         </div>
       </div>
-      <div class="fg"><label class="fl">クリニック名・勤務先</label><input type="text" class="fi" placeholder="○○クリニック"></div>
+      <div class="fg"><label class="fl">クリニック名・勤務先</label><input type="text" name="clinic" class="fi" placeholder="○○クリニック"></div>
       <div class="fg-row">
-        <div class="fg"><label class="fl">メールアドレス *</label><input type="email" class="fi" placeholder="info@clinic.com"></div>
-        <div class="fg"><label class="fl">電話番号</label><input type="tel" class="fi" placeholder="090-0000-0000"></div>
+        <div class="fg"><label class="fl">メールアドレス *</label><input type="email" name="email" class="fi" placeholder="info@clinic.com" required></div>
+        <div class="fg"><label class="fl">電話番号</label><input type="tel" name="phone" class="fi" placeholder="090-0000-0000"></div>
       </div>
-      <div class="fg"><label class="fl">ご質問・ご要望</label><textarea class="fta" placeholder="ご不明な点やご要望をご記入ください"></textarea></div>
-      <label class="f-check"><input type="checkbox">無料個別相談を希望する（担当者よりご連絡いたします）</label>
-      <button class="btn btn-terra" style="width:100%;padding:16px;font-size:14px;text-align:center">申し込みを送信する</button>
-    </div>
+      <div class="fg"><label class="fl">ご質問・ご要望</label><textarea name="message" class="fta" placeholder="ご不明な点やご要望をご記入ください"></textarea></div>
+      <label class="f-check"><input type="checkbox" name="consultation" value="希望する">無料個別相談を希望する（担当者よりご連絡いたします）</label>
+      <div id="form-status" style="display:none;padding:14px 18px;font-family:var(--ff-jp-s);font-size:13px;letter-spacing:0.04em;line-height:1.6;"></div>
+      <button type="submit" id="form-submit-btn" class="btn btn-terra" style="width:100%;padding:16px;font-size:14px;text-align:center">申し込みを送信する</button>
+    </form>
   </div>
 </section>
 
@@ -3879,7 +3878,7 @@ footer {
         We network with intelligent state of the art medicine.<br><br>
         〒100-6162 東京都千代田区永田町2-11-1 山王パークタワー3F<br>
         info@qssjapan.com<br>
-        <a href="https://sunsynergy.site/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.4);font-family:var(--ff-ui);font-size:11px;letter-spacing:0.12em;text-decoration:none;transition:color 0.2s" onmouseover="this.style.color='rgba(255,255,255,0.7)'" onmouseout="this.style.color='rgba(255,255,255,0.4)'">sunsynergy.site</a>
+        <a href="https://sunsynergy.site/" target="_blank" rel="noopener" style="color:rgba(0,0,0,0.5);font-family:var(--ff-ui);font-size:11px;letter-spacing:0.12em;text-decoration:none;transition:color 0.2s" onmouseover="this.style.color='rgba(0,0,0,0.8)'" onmouseout="this.style.color='rgba(0,0,0,0.5)'">sunsynergy.site</a>
       </p>
     </div>
     <div class="footer-geo">
@@ -3895,5 +3894,58 @@ footer {
 </footer>
 
 
+
+<script>
+// ── Google Spreadsheet 連携 ──
+// GAS Web App URL を下記に貼り付けてください
+var GAS_URL = 'https://script.google.com/macros/s/AKfycbwapG4rQMnXsWceWKwDKKOBU-d90mi8uN-BieGyneJJDfw4M8CRwueMJaLmKLhQZlyO/exec';
+
+function submitContactForm(e) {
+  e.preventDefault();
+  var btn = document.getElementById('form-submit-btn');
+  var status = document.getElementById('form-status');
+  var form = document.getElementById('contact-form');
+
+  btn.disabled = true;
+  btn.textContent = '送信中...';
+  status.style.display = 'none';
+
+  var data = {
+    timestamp: new Date().toLocaleString('ja-JP', {timeZone:'Asia/Tokyo'}),
+    name:     form.name.value,
+    role:     form.role.value,
+    clinic:   form.clinic.value,
+    email:    form.email.value,
+    phone:    form.phone.value,
+    message:  form.message.value,
+    consultation: form.consultation.checked ? '希望する' : ''
+  };
+
+  var url = GAS_URL + '?payload=' + encodeURIComponent(JSON.stringify(data));
+
+  fetch(url, {
+    method: 'GET',
+    mode: 'no-cors'
+  })
+  .then(function() {
+    status.style.background = 'rgba(61,107,74,0.1)';
+    status.style.borderLeft = '3px solid #3D6B4A';
+    status.style.color = '#3D6B4A';
+    status.textContent = 'お申し込みを受け付けました。担当者より3営業日以内にご連絡いたします。';
+    status.style.display = 'block';
+    form.reset();
+    btn.textContent = '送信完了';
+  })
+  .catch(function() {
+    status.style.background = 'rgba(196,98,45,0.08)';
+    status.style.borderLeft = '3px solid #C4622D';
+    status.style.color = '#C4622D';
+    status.textContent = '送信に失敗しました。恐れ入りますが info@qssjapan.com までご連絡ください。';
+    status.style.display = 'block';
+    btn.disabled = false;
+    btn.textContent = '申し込みを送信する';
+  });
+}
+</script>
 </body>
 </html>
